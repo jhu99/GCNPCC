@@ -22,7 +22,6 @@ install.packages("scalreg")
 This example calculates partial correlation coefficients for a set of $100$ genes across $421$ single cells using gene expression data from mouse embryonic stem cells:
 ```R
 library(gcnpcc)
-library(scalreg)
 load('data/expressionData.rda')
 p <- 100
 h <- 4
